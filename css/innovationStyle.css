@@ -59,6 +59,7 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+/*
 
 .desctop {
     display: block;
@@ -67,6 +68,7 @@ body {
 .mobile_s {
     display: none;
 }
+*/
 
 
 .sec1 {
@@ -546,15 +548,20 @@ body {
 .desctop {
     display: flex;
 }
+@media all and (max-width:1200px)
+{
+    .sec2 .sec2Img .flask
+    {
+        height: 3vw;
+    }
+}
 
 @media all and (max-width:768px) {
-    .mobile {
-        display: flex;
+    body
+    {
+        overflow-x: hidden;
     }
-
-    .desctop {
-        display: none;
-    }
+   
 
     .sec1 {
         width: 100vw;
@@ -565,7 +572,6 @@ body {
 
     .sec1 .sec1Info .sec1Lab_h1 {
         font-size: 6vw;
-        letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
         margin: 0.63em 0 2vw;
@@ -574,7 +580,6 @@ body {
 
     .sec1 .sec1Info .sec1Lab_h3 {
         font-size: 4.2vw;
-        letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
         margin: 0 0 0.83em;
@@ -822,6 +827,16 @@ body {
     .slick-track {
         width: 1982px !important;
     }
+    .sec2 .sec2Img .flask {
+    height: 4.5vw;
+}
+     .mobile {
+        display: flex;
+    }
+
+    .desctop {
+        display: none!important;
+    }
 }
 
 
@@ -850,7 +865,7 @@ body {
     }
 
     .sec4Img {
-        left: 8vw;
+        left: 7.5vw;
     }
 
     .slick-track {

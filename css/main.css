@@ -24011,7 +24011,7 @@ section .slick-dots li button {
     }
 
     .desctop {
-        display: none !important;
+        display: none;
     }
 
     .footer-bottom__text {
