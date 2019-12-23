@@ -59,21 +59,9 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-/*
-
-.desctop {
-    display: block;
-}
-
-.mobile_s {
-    display: none;
-}
-*/
-
-
 .sec1 {
     width: 100vw;
-    background-color: #cdfded;
+    background-color: #ffdee1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -290,7 +278,7 @@ body {
     width: 4.5vw;
     position: relative;
     margin: 1vw 1vw 0;
-    animation: blinker ease-in-out 6s infinite;
+/*    animation: blinker ease-in-out 6s 1;*/
     animation-fill-mode: both;
 }
 
@@ -326,7 +314,7 @@ body {
 .sec3 {
     width: 100vw;
     background-color: #cdfded;
-    padding: 0 8vw;
+    padding: 0 8vw 7vw;
     box-sizing: border-box;
 }
 
@@ -429,16 +417,14 @@ body {
 
 .sec4 {
     width: 100vw;
-    background-color: #cdfded;
+    background-color: #ffdee1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10vw;
+    padding: 8vw 10vw;
     box-sizing: border-box;
 }
-
-
 
 .sec4 .sec4Info {
     display: flex;
@@ -447,7 +433,6 @@ body {
     align-items: center;
     width: 34vw;
     box-sizing: border-box;
-    margin-top: 1vw;
 }
 
 .sec4 .sec4Info .sec4Lab_h1 {
@@ -488,7 +473,7 @@ body {
 }
 
 .sec4Img .productbox {
-    animation: blinker ease-in-out 7s infinite;
+/*    animation: blinker ease-in-out 7s 1;*/
     animation-fill-mode: both;
     position: relative;
 
@@ -574,7 +559,7 @@ body {
         font-size: 6vw;
         text-align: center;
         width: 100%;
-        margin: 0.63em 0 2vw;
+        margin: 0.63em 0 0.7em;
         line-height: 7.1vw;
     }
 
@@ -582,8 +567,22 @@ body {
         font-size: 4.2vw;
         text-align: center;
         width: 100%;
-        margin: 0 0 0.83em;
         font-family: "Open Sans", sans-serif;
+        background-color: white;
+        border-radius: 50px;
+        border: 3px solid #a1fde9;
+        padding: 2.9vw 3vw;
+        margin: 0;
+    }
+    .borderH3
+    {
+        background-color: white;
+        border-radius: 50px;
+        margin: 0 0 0.83em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5vw;
     }
 
     .sec1Info .info_hr {
@@ -599,16 +598,16 @@ body {
     }
 
     .textInfo_p {
-        font-size: 3.7vw;
+        font-size: 4vw;
         line-height: 1.5;
         margin: 0.7em 0 1em;
     }
 
     .sec1Img {
-        width: 101%;
+        width: 100%;
         height: 85.8vw;
         padding-top: 1vw;
-        margin: 6vw 1.5vw 7vw 0;
+        margin: 6vw 1.5vw 7.5vw 0;
     }
 
     .sparcleImg .sparcleImg_Img {
@@ -618,7 +617,7 @@ body {
     }
 
     .sec2 {
-        padding: 0vw 7vw 7vw 8vw;
+        padding: 12vw 7vw 7vw 8vw;
         text-align: center;
     }
 
@@ -629,7 +628,6 @@ body {
 
     .sec2 .sec1Lab_h1 {
         font-size: 6vw;
-        letter-spacing: -0.2vw;
         text-align: center;
         line-height: 7.1vw;
         display: flex;
@@ -744,15 +742,14 @@ body {
         width: 100vw;
         flex-direction: column;
         align-items: center;
-        padding: 0vw 7vw 12vw 8vw;
+        padding: 12vw 7vw 12vw 8vw;
     }
 
     .sec4 .sec4Info .sec4Lab_h1 {
         font-size: 6vw;
-        letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
-        margin: 0.63em 0 2vw;
+        margin: 0 0 2vw;
         line-height: 7.1vw;
     }
 
@@ -766,9 +763,9 @@ body {
     .sec4Img {
         width: 100%;
         height: 102.8vw;
-        margin: 6vw 1.5vw 7vw 0;
+        margin: 9vw 6.2vw 5vw 0;
         padding: 7.9vw 0 0 25.2vw;
-        ;
+        
     }
 
     .sec4Img .productbox:nth-child(1) {
