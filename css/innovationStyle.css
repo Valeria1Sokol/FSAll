@@ -57,8 +57,9 @@
 
 body {
     margin: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
+
 .sec1 {
     width: 100vw;
     background-color: #ffdee1;
@@ -278,7 +279,7 @@ body {
     width: 4.5vw;
     position: relative;
     margin: 1vw 1vw 0;
-/*    animation: blinker ease-in-out 6s 1;*/
+    /*    animation: blinker ease-in-out 6s 1;*/
     animation-fill-mode: both;
 }
 
@@ -424,6 +425,7 @@ body {
     align-items: center;
     padding: 8vw 10vw;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .sec4 .sec4Info {
@@ -473,7 +475,7 @@ body {
 }
 
 .sec4Img .productbox {
-/*    animation: blinker ease-in-out 7s 1;*/
+    /*    animation: blinker ease-in-out 7s 1;*/
     animation-fill-mode: both;
     position: relative;
 
@@ -533,20 +535,18 @@ body {
 .desctop {
     display: flex;
 }
-@media all and (max-width:1200px)
-{
-    .sec2 .sec2Img .flask
-    {
+
+@media all and (max-width:1200px) {
+    .sec2 .sec2Img .flask {
         height: 3vw;
     }
 }
 
 @media all and (max-width:768px) {
-    body
-    {
+    body {
         overflow-x: hidden;
     }
-   
+
 
     .sec1 {
         width: 100vw;
@@ -574,8 +574,8 @@ body {
         padding: 2.9vw 3vw;
         margin: 0;
     }
-    .borderH3
-    {
+
+    .borderH3 {
         background-color: white;
         border-radius: 50px;
         margin: 0 0 0.83em;
@@ -765,7 +765,7 @@ body {
         height: 102.8vw;
         margin: 9vw 6.2vw 5vw 0;
         padding: 7.9vw 0 0 25.2vw;
-        left: 12vw; 
+        left: 12vw;
     }
 
     .sec4Img .productbox:nth-child(1) {
@@ -824,15 +824,17 @@ body {
     .slick-track {
         width: 1982px !important;
     }
+
     .sec2 .sec2Img .flask {
-    height: 4.5vw;
-}
-     .mobile {
+        height: 4.5vw;
+    }
+
+    .mobile {
         display: flex;
     }
 
     .desctop {
-        display: none!important;
+        display: none !important;
     }
 }
 
@@ -870,10 +872,11 @@ body {
         margin-left: 42% !important;
         margin: 7vw auto 38px 84px;
     }
+
     .sec1 .sec1Info .sec1Lab_h1 {
-   
-    margin: 0.63em 0 1.2em;
-}
+
+        margin: 0.63em 0 1.2em;
+    }
 
 
 }
@@ -912,7 +915,8 @@ body {
     .slick-track {
         width: 1381px !important;
     }
+
     .sec4Img {
-    left: 13vw;
-}
+        left: 13vw;
+    }
 }
