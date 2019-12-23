@@ -459,7 +459,7 @@ body {
     text-align: left;
     box-sizing: border-box;
     position: relative;
-    left: 10vw;
+    left: 11vw;
     padding: 4.5vw 0 0 10.7vw;
 }
 
@@ -765,7 +765,7 @@ body {
         height: 102.8vw;
         margin: 9vw 6.2vw 5vw 0;
         padding: 7.9vw 0 0 25.2vw;
-        
+        left: 12vw; 
     }
 
     .sec4Img .productbox:nth-child(1) {
