@@ -861,9 +861,6 @@ body {
         height: 38px;
     }
 
-    .sec4Img {
-        left: 7.5vw;
-    }
 
     .slick-track {
         width: 1825px !important;
@@ -911,4 +908,7 @@ body {
     .slick-track {
         width: 1381px !important;
     }
+    .sec4Img {
+    left: 13vw;
+}
 }
