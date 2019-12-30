@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Open Sans bold";
+    src: url("../Fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans semi-bold";
+    src: url("../Fonts/OpenSans-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../Fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans light";
+    src: url("../Fonts/OpenSans-Light.ttf");
+}
 @-webkit-keyframes flash {
 
     from,
@@ -86,7 +105,7 @@ body {
 .sec1 .sec1Info .sec1Lab_h1 {
     font-size: 2.45vw;
     font-weight: 600;
-    font-family: "Open Sans bold", sans-serif;
+    font-family: "Open Sans bold";
     line-height: 3.1vw;
     margin: 0;
     color: black;
@@ -94,7 +113,7 @@ body {
 
 .textInfo_p {
     font-size: 1.5vw;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans";
     line-height: 1.95vw;
     margin: 0;
     color: #161717;
@@ -102,7 +121,7 @@ body {
 
 .sec1Info .sec1Lab_h3 {
     font-size: 1.7vw;
-    font-family: "Open Sans semi-bold", sans-serif;
+    font-family: "Open Sans semi-bold";
     margin: 0.5vw 0 0;
     color: black;
 }
@@ -170,7 +189,7 @@ body {
     width: 100%;
     align-items: flex-start;
     justify-content: space-between;
-    margin: 7vw 0 4vw;
+    margin: 9vw 0 4vw;
     box-sizing: border-box;
     text-align: left;
 }
@@ -435,6 +454,7 @@ body {
     align-items: center;
     width: 34vw;
     box-sizing: border-box;
+    margin: 0 0 3vw;
 }
 
 .sec4 .sec4Info .sec4Lab_h1 {
@@ -561,6 +581,7 @@ body {
         width: 100%;
         margin: 0.63em 0 0.7em;
         line-height: 7.1vw;
+        letter-spacing: -0.2vw;
     }
 
     .sec1 .sec1Info .sec1Lab_h3 {
@@ -617,7 +638,7 @@ body {
     }
 
     .sec2 {
-        padding: 12vw 7vw 7vw 8vw;
+        padding: 15vw 7vw 7vw 8vw;
         text-align: center;
     }
 
@@ -632,7 +653,8 @@ body {
         line-height: 7.1vw;
         display: flex;
         justify-content: center;
-        margin: 0 0 10vw;
+        margin: 0 0 13vw;
+        letter-spacing: -0.2vw;
     }
 
     .sec2 .sec2Img .flask {
@@ -652,8 +674,8 @@ body {
     }
 
     .sec2 .sec2Info .sec2Text_p {
-        font-size: 3.7vw;
-        line-height: 1.5;
+       font-size: 4vw;
+    line-height: 1.5;
     }
 
     .sec2Text {
@@ -735,21 +757,21 @@ body {
     }
 
     .sec3 .sec3Box_h1 {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .sec4 {
         width: 100vw;
         flex-direction: column;
         align-items: center;
-        padding: 12vw 7vw 12vw 8vw;
+        padding: 15vw 7vw 12vw 8vw;
     }
 
     .sec4 .sec4Info .sec4Lab_h1 {
         font-size: 6vw;
         text-align: center;
         width: 100%;
-        margin: 0 0 2vw;
+        margin: 0 0 5vw;
         line-height: 7.1vw;
     }
 
