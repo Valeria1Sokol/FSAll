@@ -566,6 +566,10 @@ body {
     body {
         overflow-x: hidden;
     }
+    .show
+    {
+        display: none;
+    }
 
 
     .sec1 {
@@ -873,13 +877,10 @@ body {
     }
 
     .sec4 {
-        padding: 0vw 7vw 10vw 8vw;
+        padding: 15vw 7vw 10vw 8vw;
 
     }
 
-    .sec4 .sec4Info {
-        margin-top: -5vw;
-    }
 
     .sec3 .sec3Box_h1 {
         height: 38px;
@@ -906,10 +907,6 @@ body {
 @media all and (max-width:414px) {
     .slick-track {
         width: 1784px !important;
-    }
-
-    .sec4 .sec4Info {
-        margin-top: -8vw;
     }
 }
 
