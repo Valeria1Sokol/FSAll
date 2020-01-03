@@ -17,6 +17,7 @@
     font-family: "Open Sans light";
     src: url("../Fonts/OpenSans-Light.ttf");
 }
+
 @-webkit-keyframes flash {
 
     from,
@@ -566,8 +567,8 @@ body {
     body {
         overflow-x: hidden;
     }
-    .show
-    {
+
+    .show {
         display: none;
     }
 
@@ -678,8 +679,8 @@ body {
     }
 
     .sec2 .sec2Info .sec2Text_p {
-       font-size: 4vw;
-    line-height: 1.5;
+        font-size: 4vw;
+        line-height: 1.5;
     }
 
     .sec2Text {
@@ -714,31 +715,6 @@ body {
         width: 65%;
         padding: 1vw 3vw 1vw 5.6vw;
     }
-
-    .sec3Info {
-        justify-content: center;
-        padding-top: 2vw;
-    }
-
-    .sec3Box .sec3Info_h2 {
-        font-size: 4vw;
-    }
-
-    .sec3Box .sec3Info_p {
-        font-size: 4vw;
-        line-height
-    }
-
-    .sec3Box .sec3Info {
-
-        width: 100%;
-        justify-content: flex-start;
-    }
-
-    .sec3Info img {
-        width: 23vw;
-    }
-
 
     .sec3 {
         padding: 0 7vw 6vw;
@@ -843,10 +819,6 @@ body {
         height: 77vw;
     }
 
-    .slick-slider {
-        flex-wrap: wrap;
-    }
-
     .slick-track {
         width: 1982px !important;
     }
@@ -862,6 +834,17 @@ body {
     .desctop {
         display: none !important;
     }
+
+    .sec3Box .sec3Info_h2 {
+        font-size: 4vw;
+    }
+
+    .sec3Box .sec3ImgBox img {
+        width: 26vw;
+    }
+
+ 
+    
 }
 
 
@@ -870,6 +853,11 @@ body {
     .slick-dots {
         bottom: -2vw !important;
     }
+     .sec3 .slick-dots {
+        margin-left: 42% !important;
+        margin: 7vw auto 38px 84px;
+    }
+    
 
     .sec1 {
         padding: 21vw 7vw 10vw 8vw;

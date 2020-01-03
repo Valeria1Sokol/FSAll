@@ -762,65 +762,21 @@ spoilers.each(function () {
 });
 
 
-//setTimeout(function(){
-//            $('.flask').addClass('display-2');
-//        }, 5000);
-//    setInterval(function(){
-//        setTimeout(function(){
-//            $('.flask').addClass('display-2');
-//        }, 5000);
-//        $('.flask').removeClass('display-2');
-//    },6000);
-//
-//
-//setTimeout(function(){
-//            $('.productbox').addClass('display-2');
-//        }, 8000);
-//    setInterval(function(){
-//        setTimeout(function(){
-//            $('.productbox').addClass('display-2');
-//        }, 8000);
-//        $('.productbox').removeClass('display-2');
-//    },9000);
 
 $('.slider').slick({
     dots: true,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
+    autoplaySpeed: 1500,
+    infinite: true,
+    speed: 1500
+});
+$('.slider2').slick({
+    dots: true,
+    arrows: false,
+    autoplay: false,
     autoplaySpeed: 1500,
     infinite: true,
     speed: 1500
 });
 
-$(window).scroll(function () {
-    $('.sec2').each(function (index, value) {
-        // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
-        if (
-            $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
-            $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
-        ) {
-            $('.flask').css({
-                'animation-name': 'blinker',
-                'animation-duration': '6s',
-                'animation-iteration-count': 1,
-                'animation-direction': 'alternate',
-            })
-
-        }
-    });
-      $('.sec4').each(function (index, value) {
-        // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
-        if (
-            $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
-            $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
-        ) {
-            $('.productbox').css({
-                'animation-name': 'blinker',
-                'animation-duration': '7s',
-                'animation-iteration-count': 1,
-                'animation-direction': 'alternate',
-            })
-
-        }
-    });
-}).trigger('scroll');
