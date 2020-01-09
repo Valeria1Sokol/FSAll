@@ -164,7 +164,6 @@
         color: rgb(0, 0, 0);
         margin-left: 5vw;
         padding-left: 30px;
-        /* background: red; */
         padding-top: .2vw;
         padding-bottom: 1vw;
         padding-right: 1vw;
@@ -469,7 +468,8 @@
         width: 45vw;
         font-size: 3.12vw;
         color: black;
-        font-weight: bolder;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
         line-height: 1.4;
     }
 
@@ -563,7 +563,8 @@
     .MsoNormal {
         padding: 5.9vw 0;
     }
+
     table td {
-    vertical-align: middle;
-}
+        vertical-align: middle;
+    }
 }

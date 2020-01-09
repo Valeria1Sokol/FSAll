@@ -9,11 +9,6 @@
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../Fonts/OpenSans-Regular.ttf");
-}
-
-@font-face {
     font-family: "Open Sans light";
     src: url("../Fonts/OpenSans-Light.ttf");
 }
@@ -114,7 +109,6 @@ body {
 
 .textInfo_p {
     font-size: 1.5vw;
-    font-family: "Open Sans";
     line-height: 1.95vw;
     margin: 0;
     color: #161717;

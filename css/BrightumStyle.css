@@ -9,11 +9,6 @@
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../Fonts/OpenSans-Regular.ttf");
-}
-
-@font-face {
     font-family: "Open Sans light";
     src: url("../Fonts/OpenSans-Light.ttf");
 }
@@ -21,7 +16,6 @@
 
 body {
     margin: 0;
-    font-family: 'Open Sans';
     overflow-x: hidden;
     color: black;
 }
@@ -64,7 +58,6 @@ body {
 
 .textInfo_p {
     font-size: 1.5vw;
-    font-family: "Open Sans";
     line-height: 1.95vw;
     margin: 0;
     color: #161717;
@@ -147,7 +140,6 @@ body {
 
 .sec1ImgInfo .sec1_p {
     font-size: 1vw;
-    font-family: "Open Sans";
     color: #3d3d3d;
     margin: 0;
     letter-spacing: -1px;
@@ -176,7 +168,6 @@ body {
 
 .sec1 .openBox p {
     font-size: 1.26vw;
-    font-family: "Open Sans";
     margin: 0;
     line-height: 1.4;
 }
@@ -240,7 +231,6 @@ body {
 
 .sec2Box .sec2_h4 {
     font-size: 1.5vw;
-    font-family: "Open Sans";
     line-height: 1.95vw;
     text-align: left;
     margin: 1.5vw 0 3.8vw 10vw;
@@ -577,7 +567,6 @@ body {
 
 .sec3Box .sec3Info_p {
     font-size: 1.1vw;
-    font-family: "Open Sans";
     margin: 0;
     line-height: 1.6;
     color: #5b5b5b;
@@ -670,7 +659,8 @@ svg.radial-progress circle.complete {
 svg.radial-progress text {
     fill: #000;
     font-size: 0.8vw;
-    font-weight: bold;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
     text-anchor: middle;
     margin-top: 100px;
     transform: matrix(0, 1, -1, 0, 78, 0);
@@ -854,7 +844,7 @@ svg.radial-progress:nth-of-type(6n+5) circle {
         text-align: center;
         width: 100%;
         margin: 0 0 0.83em;
-        font-family: "Open Sans";
+        font-family: "Open Sans", sans-serif;
     }
 
     .textInfo_p {
@@ -1077,41 +1067,51 @@ svg.radial-progress:nth-of-type(6n+5) circle {
         justify-content: center;
         align-items: flex-start;
     }
+
     .sec2Text .sec2Box_p {
-    font-size: 3vw;
-}
+        font-size: 3vw;
+    }
+
     .sec2Text .sec2_h3 {
-    font-size: 3.5vw;
+        font-size: 3.5vw;
         font-family: "Open Sans bold";
-}
-  .sec2:first-of-type .sec2Text:last-of-type {
-    margin: 7vw 0 5vw;
-      width: 113%!important;
-}
+    }
+
+    .sec2:first-of-type .sec2Text:last-of-type {
+        margin: 7vw 0 5vw;
+        width: 113% !important;
+    }
+
     .sec22 .sec2Text {
-    width: 100%;
-}
+        width: 100%;
+    }
+
     .sec2 .sec2Info {
-   padding: 0vw 0 5vw 4vw;
-    width: 50%;
-    height: fit-content;
-}
-    .sec2 .sec2Text{
-    width: 99%;
-}
+        padding: 0vw 0 5vw 4vw;
+        width: 50%;
+        height: fit-content;
+    }
+
+    .sec2 .sec2Text {
+        width: 99%;
+    }
+
     .sec2Text:first-of-type {
-    margin: 6vw 0 12vw;
-}
+        margin: 6vw 0 12vw;
+    }
+
     .sec32 .sec2Text:last-of-type {
-    margin: 0;
-    width: 100%;
-}
+        margin: 0;
+        width: 100%;
+    }
+
     .sec32 .sec2Text:last-of-type {
-    margin: 15vw 0 0;
-}
-   .sec32 .sec2Text:first-of-type {
-    margin: -2.5vw 0 0vw;
-}
+        margin: 15vw 0 0;
+    }
+
+    .sec32 .sec2Text:first-of-type {
+        margin: -2.5vw 0 0vw;
+    }
 
     .sec4Img .imgTop {
         width: 39vw;

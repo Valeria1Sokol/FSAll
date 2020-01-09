@@ -8,10 +8,6 @@
     src: url("../Fonts/OpenSans-Semibold.ttf");
 }
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("../Fonts/OpenSans-Regular.ttf");
-}
 
 @font-face {
     font-family: "Open Sans light";
@@ -209,7 +205,7 @@
 
 body {
     margin: 0;
-    font-family: 'Open Sans';
+   
     overflow-x: hidden;
     color: black;
 }
@@ -252,7 +248,7 @@ body {
 
 .textInfo_p {
     font-size: 1.5vw;
-    font-family: "Open Sans";
+    
     line-height: 1.95vw;
     margin: 0;
     color: #161717;
@@ -470,7 +466,6 @@ body {
 
 .sec2Text .sec2Text_p {
     font-size: 1.5vw;
-    font-family: "Open Sans";
     line-height: 1.95vw;
     margin: 0;
     color: #161717;
@@ -564,7 +559,7 @@ body {
 .sec3 {
     width: 100vw;
     background-color: #d6f2f7;
-    padding: 0 8vw 12vw;
+    padding: 0 8vw 0;
     box-sizing: border-box;
 }
 
