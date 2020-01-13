@@ -977,6 +977,7 @@ section-facts-3 .chemistry-facts .chemistry-image {
     position: relative;
     top: 1.3vw;
     left: -0.2vw;
+    width: 3.1vw;
 }
 
 .illustration5 {
@@ -1723,10 +1724,13 @@ section-facts-3 .chemistry-facts .chemistry-image {
     .cloud-image {
         width: 36vw;
     }
-    .chemistytanleSec
-    {
+
+    .chemistytanleSec {
         margin-top: -2vw;
     }
+        .star {
+    width: 6.5vw;
+}
 
 
 }
@@ -1735,6 +1739,37 @@ section-facts-3 .chemistry-facts .chemistry-image {
     .section-facts-3-mobile {
         padding: 22vw 7vw 0 8vw;
     }
+
+    @keyframes fillActionOne {
+        0% {
+            transform: translate(0, 80px);
+        }
+
+        100% {
+            transform: translate(0, 22px);
+        }
+    }
+
+    .chemistry-facts-hr {
+        border-bottom: 4px solid #8da3e1;
+        width: 38%;
+        margin: 4vw 0 3vw;
+    }
+
+    @keyframes cloud {
+        0% {
+            transform: translateY(40px);
+        }
+
+        50% {
+            transform: translateY(62px);
+        }
+
+        100% {
+            transform: translateY(40px);
+        }
+    }
+
 }
 
 @media all and (max-width:375px) {

@@ -766,7 +766,7 @@ spoilers.each(function () {
 $('.slider').slick({
     dots: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1500,
     infinite: true,
     speed: 1500
@@ -774,7 +774,7 @@ $('.slider').slick({
 $('.slider2').slick({
     dots: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1500,
     infinite: true,
     speed: 1500
