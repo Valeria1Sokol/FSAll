@@ -769,7 +769,8 @@ $('.slider').slick({
     autoplay: true,
     autoplaySpeed: 1500,
     infinite: true,
-    speed: 1500
+    speed: 1500,
+    slidesToShow:1
 });
 $('.slider2').slick({
     dots: true,
@@ -779,4 +780,12 @@ $('.slider2').slick({
     infinite: true,
     speed: 1500
 });
+ $('.slider1').slick({
+      dots: true,
+    arrows: false,
+    autoplay: false,
+    autoplaySpeed: 1500,
+    infinite: true,
+    speed: 1500
+    });
 
