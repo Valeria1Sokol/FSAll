@@ -13963,7 +13963,7 @@ section .slick-dots li button {
         opacity: 1;
         visibility: 1;
 /*        height: 700px;*/
-/*        overflow-x: auto;*/
+        overflow: scroll;
     }
 }
 
