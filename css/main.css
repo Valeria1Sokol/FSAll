@@ -14750,6 +14750,7 @@ section .slick-dots li button {
 }
 
 @media all and (max-width: 1199.98px) {
+/*
     .footer-medium__wrapper {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -14757,6 +14758,7 @@ section .slick-dots li button {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+*/
 }
 
 @media only screen and (max-width: 768.98px) {
@@ -23686,9 +23688,11 @@ section .slick-dots li button {
     }
 
 
+/*
     .footer-medium {
         padding: 13px 0 14px;
     }
+*/
 
     .footer-top .container {
         max-width: 940px;
