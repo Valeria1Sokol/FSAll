@@ -700,16 +700,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 11.5vw 0 0
+    margin: 0 10.5vw 0 0
 }
 
 .section3-wraper .box {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 109%;
+        height: 13vw;
     justify-content: center;
     align-items: center;
-    padding: 3vw 0 0;
+    padding: 3vw 0 0 1vw;
 }
 
 .section3-wraper .box:first-of-type {
@@ -756,11 +757,11 @@ body {
 }
 
 .rotating-fan {
-    position: relative;
+    position: absolute;
     z-index: 1;
     width: 15vw;
     height: 15vw;
-    left: 7vw;
+    left: 16.5vw;
     -webkit-animation: rotation 10s infinite linear;
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
@@ -769,17 +770,18 @@ body {
 }
 
 .section3-label {
-    position: relative;
+    position: absolute;
     z-index: 2;
     width: 15vw;
     height: 15vw;
-    left: -8vw;
+    left: 16.5vw;
     -webkit-animation: rotation_2 10s infinite linear;
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: center center;
 }
+
 
 .point1,
 .point2,
@@ -999,6 +1001,7 @@ body {
     background-image: url(../img/section5-img.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

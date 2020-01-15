@@ -77,7 +77,6 @@ body {
 }
 
 .sec1_text {
-    font-family: 'Open Sans';
     font-size: 2vw;
     font-weight: 700;
     color: black;
@@ -1260,7 +1259,7 @@ section-facts-3 .chemistry-facts .chemistry-image {
     .section-2-title .chemistry-facts_h3 {
         font-size: 6.1vw;
         font-weight: 600;
-        letter-spacing: -2.3px;
+        letter-spacing: -1px;
         line-height: 1.4;
         font-family: "Open Sans", sans-serif;
     }
@@ -1373,7 +1372,7 @@ section-facts-3 .chemistry-facts .chemistry-image {
         color: black;
         font-size: 6.1vw;
         margin: 9.8vw 0 6vw;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
     }
 
     .info-about_p {
