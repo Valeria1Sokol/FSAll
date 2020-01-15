@@ -13962,8 +13962,8 @@ section .slick-dots li button {
         align-items: center;
         opacity: 1;
         visibility: 1;
-        height: 700px;
-        overflow-x: auto;
+/*        height: 700px;*/
+/*        overflow-x: auto;*/
     }
 }
 
@@ -24359,6 +24359,11 @@ section .slick-dots li button {
 
     section .slick-dots {
         margin-left: 45%;
+    }
+    .mobile-nav-menu2
+    {
+       height: 20vw;
+        width: 20vw;
     }
 
 
