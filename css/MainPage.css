@@ -707,7 +707,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 109%;
-        height: 13vw;
+    height: 13vw;
     justify-content: center;
     align-items: center;
     padding: 3vw 0 0 1vw;
@@ -1414,22 +1414,21 @@ body {
 
     .section3-wraper .box:nth-of-type(2) {
         justify-content: space-between;
-        padding: 11vw 7vw 0 5vw;
+        padding: 11vw 11vw 0 11vw;
         margin: 0px 0 40vw;
+        height: 25vw;
     }
 
     .section3-label {
         width: 35vw;
-        height: 33vw;
-        left: -15vw;
-
+        height: 35vw;
+        left: 30vw;
     }
 
     .rotating-fan {
         width: 36vw;
-        height: 32vw;
-        left: 16vw;
-
+        height: 35vw;
+        left: 30vw;
     }
 
     .section5 {

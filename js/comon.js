@@ -2,6 +2,9 @@ $(document).ready(function () {
     $(".subMenuClick").click(function () {
         $(this).find("i").toggleClass("fa-caret-down").toggleClass("fa-caret-up");
         $(".subMenu").fadeToggle();
+        $(".header-nav-wrapper.active").css({
+            height:'110vh'
+        })
     });
 
     // Scroll header

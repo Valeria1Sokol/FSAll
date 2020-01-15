@@ -442,7 +442,7 @@ body {
 }
 
 .section-facts-3 .triang {
-    margin: 1.5vw 2.6vw;
+   margin: 0vw 2.6vw 1.5vw;
     -webkit-animation: rotation 5s infinite linear;
     animation: rotation 5s infinite linear;
 }
