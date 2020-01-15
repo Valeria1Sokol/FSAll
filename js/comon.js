@@ -3,7 +3,7 @@ $(document).ready(function () {
         $(this).find("i").toggleClass("fa-caret-down").toggleClass("fa-caret-up");
         $(".subMenu").fadeToggle();
         $(".header-nav-wrapper.active").css({
-            height:'110vh'
+//            height:'110vh'
         })
     });
 

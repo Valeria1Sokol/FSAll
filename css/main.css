@@ -13962,7 +13962,7 @@ section .slick-dots li button {
         align-items: center;
         opacity: 1;
         visibility: 1;
-        height: 100vh;
+/*        height: 100vh;*/
         overflow-x: auto;
     }
 }
